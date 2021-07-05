@@ -16,7 +16,11 @@ ja:ViewGraph  rdfs:subClassOf  ja:Model .
 
 :service1  rdf:type                   fuseki:Service ;
         fuseki:dataset                :dataset ;
+<<<<<<< HEAD:apache-jena-fuseki-4.0.0/run/system_files/579ccd0f-961c-4b73-b61c-e23d55e9cd88
         fuseki:name                   "food" ;
+=======
+        fuseki:name                   "brand" ;
+>>>>>>> 321d0d7bc66c350e413c754930e172467a6c3bf5:apache-jena-fuseki-4.0.0/run/system_files/cf98dffc-f158-413c-9539-6670770c2816
         fuseki:serviceQuery           "" , "query" , "sparql" ;
         fuseki:serviceReadGraphStore  "get" ;
         fuseki:serviceReadWriteGraphStore
